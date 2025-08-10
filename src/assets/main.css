@@ -1,0 +1,151 @@
+@import './base.css';
+
+.congratulations-1 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.congratulations-1 img {
+  margin-bottom: 30px;
+}
+.congratulations-1 .btn-next-step {
+  margin-top: 30px;
+  cursor: pointer;
+  border: 1px solid black;
+  padding: 10px;
+}
+.main-congratulations {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.choice {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.choice-card {
+  border: 2px solid black;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  cursor: pointer;
+  transition: 0.2s ease all;
+}
+.choice-card:hover {
+  border: 2px solid #17fc03;
+  transition: 0.2s ease all;
+}
+.select-page {
+  width: 1300px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+.flex-con {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  gap: 80px;
+}
+
+.select-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  padding: 30px;
+  border: 2px solid #3260a8;
+  border-radius: 20px;
+  cursor: pointer;
+  max-width: 260px;
+  width: 260px;
+}
+.select-card .card-h {
+  font-weight: 500;
+  margin-top: 20px;
+}
+.back-btn {
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+.card-text {
+  font-weight: 300;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.result-card-page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.result-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  padding: 30px;
+  border: 2px solid #3260a8;
+  border-radius: 20px;
+  max-width: 260px;
+  width: 260px;
+  margin-top: 40px;
+}
+.result-card .card-h {
+  font-weight: 500;
+  margin-top: 20px;
+}
+.result-text {
+  font-weight: 300;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.kaz-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.tablo {
+  display: flex;
+  width: 450px;
+  max-width: 450px;
+  overflow: hidden;
+}
+.tablo-item {
+  border: 1px solid black;
+  width: 150px;
+  height: 200px;
+  min-height: 200px;
+  min-width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btn-start {
+  border: 1px solid black;
+  padding: 15px;
+  cursor: pointer;
+  width: 150px;
+  margin-top: 20px;
+  text-align: center;
+}
+.kazik-page {
+  width: 1300px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
